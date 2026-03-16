@@ -8,7 +8,7 @@ export default function TwoColSection() {
       <div className="grid grid-cols-1 gap-8 px-3 m-auto xl:px-6 2xl:px-0 md:grid-cols-2 md:gap-8 lg:gap-16 max-w-7xl">
         <LgCard
           title="Google Ads Managed By People Who Understand Dentistry"
-          description={`Most "Google Ads experts" have never set foot in a dental office — they bid on "dentist near me" and call it a day. We're different. We're Google Certified (actually certified, not just claiming it), and we know the difference between an $800 implant patient and an $80 cleaning patient. We bid on what actually pays: implants, Invisalign, crowns, and emergencies. Every campaign is optimized for procedure value, not just clicks. Average ROAS: 6.2x. Average cost per new patient: $87.`}
+          description={`Most "Google Ads experts" have never set foot in a dental office — they bid on "dentist near me" and call it a day. We're different. We're Google Certified (actually certified, not just claiming it), and we know the difference between an $800 implant patient and an $80 cleaning patient. We bid on what actually pays: implants, Invisalign, crowns, and emergencies.`}
           icon={<OnViewTaggin/>}
         />
         <LgCard

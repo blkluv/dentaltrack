@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import NotifyBtn from "./notifyBtn";
+import Image from "next/image"; 
 import { useContext } from "react";
 import { IsMenuOpenContext, MainHeightContext, PricingScrollPositionContext } from "../lib/context";
 import { usePathname } from "next/navigation";
@@ -33,13 +34,18 @@ export default function Header() {
     <div className="relative px-3 py-3 bg-blue-600 md:py-2 xl:px-6 2xl:px-0">
         <div className="flex flex-wrap items-center justify-between m-auto max-w-7xl">
           <div className="z-40 flex items-center">
-            <img 
-              src="/full-logo-3.svg" 
-              alt="Viral Dental Marketing Logo"
-              width={200}
-              height={40}
-              className="w-auto max-h-10"
-            />
+            <div className="p-1 bg-white rounded">
+              <img 
+                src="/full-logo-3.svg" 
+                alt="Viral Dental Marketing Logo"
+                className="w-auto max-h-10"
+                onError={(e) => {
+                  console.log('Image failed to load');
+                  e.currentTarget.style.display = 'none';
+                }}
+                onLoad={() => console.log('Image loaded successfully')}
+              />
+            </div>
           </div>
           <nav
             className={`${
