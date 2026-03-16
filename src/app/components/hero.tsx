@@ -14,7 +14,7 @@ export default function Hero({heroRef}:any) {
         <div className="relative flex flex-wrap justify-end w-full m-auto max-w-7xl md:px-3 xl:px-6 2xl:px-0 md:flex-nowrap md:justify-between">
           <div className="z-20 w-full mb-10 sm:mb-16">
             <div className="leading-none max-w-2xl text-[clamp(48px,_13vw,_96px)] md:text-[clamp(72px,_7.8vw,_96px)] font-extrabold drop-shadow-[0_4px_0_#141414] sm:drop-shadow-[0_4px_0_#141414] tracking-[-0.016em] text-white mb-8 text-outline">
-              Dental Marketing That Actually Works (No BS, No 12-Month Contracts)
+              Dental Marketing That Actually Works
             </div>
             <p className="mb-4 text-xl text-white md:font-medium md:max-w-xl">
               You've been sold the dream before. Fancy pitch. Big promises.
