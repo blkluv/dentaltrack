@@ -36,6 +36,8 @@ export default function Header() {
             <img 
               src="/full-logo-3.svg" 
               alt="Viral Dental Marketing Logo"
+              width={200}
+              height={40}
               className="w-auto max-h-10"
             />
           </div>

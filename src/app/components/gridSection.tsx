@@ -95,7 +95,7 @@ export default function GridSection() {
       <div className="z-0 relative max-w-7xl m-auto border-b-2 sm:border-2 border-black sm:rounded-2xl bg-neutral-100 px-3 py-9  sm:p-9 lg:pb-0 sm:drop-shadow-[8px_8px_0px_#000000]">
         <div className="z-20">
           <div className="font-bold text-5xl sm:text-6xl lg:text-7xl max-w-3xl mb-10 tracking-[-0.016em]">
-            After you subscribe
+            Our Process
           </div>
           <div className="hidden lg:block">
             <motion.div className="">

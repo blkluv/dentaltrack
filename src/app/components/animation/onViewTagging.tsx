@@ -46,7 +46,7 @@ export default function OnViewTaggin() {
     //   initial="offscreen"
     //   whileInView="onscreen"
     //   viewport={{once:true, amount: 0.2 }}
-    <div className="overflow-hidden w-full flex flex-col items-center">
+    <div className="flex flex-col items-center w-full overflow-hidden">
       <motion.div
         variants={cardAnim}
         initial="offscreen"
@@ -55,14 +55,14 @@ export default function OnViewTaggin() {
         className="opacity-20 bg-white border-2 border-black rounded-lg flex w-11/12 sm:w-full max-w-[300px] sm:max-w-[400px] items-center justify-between p-2 sm:p-3 ml-2 mr-3 drop-shadow-[4px_4px_0px_#000000] mb-4"
       >
         <div className="truncate">
-          <div className="font-bold text-lg sm:text-2xl truncate mb-0 sm:mb-2">
+          <div className="mb-0 text-lg font-bold truncate sm:text-2xl sm:mb-2">
             Marcus Anderson
           </div>
           <div className="bottom-[130px] left-28 sm:text-xl font-bold text-neutral-700 truncate border-2 border-black bg-white rounded-md px-2 w-fit">
             Checkup
           </div>
         </div>
-        <div className="font-bold text-2xl sm:text-4xl pr-2 sm:px-4">14:30</div>
+        <div className="pr-2 text-2xl font-bold sm:text-4xl sm:px-4">11:11</div>
       </motion.div>
       <motion.div
         variants={cardAnim}
@@ -72,7 +72,7 @@ export default function OnViewTaggin() {
         className="bg-white border-2 border-black rounded-lg flex w-11/12 sm:w-full max-w-[300px] sm:max-w-[400px] items-center justify-between p-2 sm:p-3 ml-2 mr-3 drop-shadow-[4px_4px_0px_#000000] mb-4"
       >
         <div className="truncate">
-          <div className="font-bold text-lg sm:text-2xl truncate mb-0 sm:mb-2">
+          <div className="mb-0 text-lg font-bold truncate sm:text-2xl sm:mb-2">
             Samantha Johnson
           </div>
           <motion.div
@@ -85,7 +85,7 @@ export default function OnViewTaggin() {
             Root Canal
           </motion.div>
         </div>
-        <div className="font-bold text-2xl sm:text-4xl pr-2 sm:px-4">15:30</div>
+        <div className="pr-2 text-2xl font-bold sm:text-4xl sm:px-4">12:12</div>
       </motion.div>
       <motion.div
         variants={cardAnim}
@@ -95,14 +95,14 @@ export default function OnViewTaggin() {
         className="opacity-20 bg-white border-2 border-black rounded-lg flex w-11/12 sm:w-full max-w-[300px] sm:max-w-[400px] items-center justify-between p-2 sm:p-3 ml-2 mr-3 drop-shadow-[4px_4px_0px_#000000] mb-4"
       >
         <div className="truncate">
-          <div className="font-bold text-lg sm:text-2xl truncate mb-0 sm:mb-2">
+          <div className="mb-0 text-lg font-bold truncate sm:text-2xl sm:mb-2">
             Isabella Martinez
           </div>
           <div className="bottom-[130px] left-28 sm:text-xl font-bold text-white truncate border-2 border-white bg-white rounded-md px-2 w-fit">
             Root Canal
           </div>
         </div>
-        <div className="font-bold text-2xl sm:text-4xl pr-2 sm:px-4">18:30</div>
+        <div className="pr-2 text-2xl font-bold sm:text-4xl sm:px-4">1:11</div>
       </motion.div>
     </div>
     // </motion.div>
