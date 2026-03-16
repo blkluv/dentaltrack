@@ -42,11 +42,11 @@ export default function Footer() {
               home
             </Link>:
             <Link
-              href={"/blog"}
+              href={"https://tiktok.com/@dentaljobs"}
               className="block mb-6 font-bold capitalize sm:mb-0 sm:mr-6"
               scroll
             >
-              blog
+              TikTok
             </Link>}
           </li>
         </ul>
