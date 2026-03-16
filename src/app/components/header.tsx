@@ -36,9 +36,9 @@ export default function Header() {
           <div className="z-40 flex items-center">
             <div className="p-1 bg-white rounded">
               <img 
-                src="/full-logo-3.svg" 
+                src="/logo.svg" 
                 alt="Viral Dental Marketing Logo"
-                cclassName="w-auto max-h-10 [&>svg]:fill-black"
+                className="w-auto max-h-10"
                 onError={(e) => {
                   console.log('Image failed to load');
                   e.currentTarget.style.display = 'none';
