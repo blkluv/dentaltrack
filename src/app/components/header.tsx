@@ -38,7 +38,7 @@ export default function Header() {
               <img 
                 src="/logo.svg" 
                 alt="Viral Dental Marketing Logo"
-                className="w-auto max-h-10"
+                className="w-auto max-h-10 [&>svg]:fill-black"
                 onError={(e) => {
                   console.log('Image failed to load');
                   e.currentTarget.style.display = 'none';
