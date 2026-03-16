@@ -3,6 +3,7 @@ import NotifyBtn from "./notifyBtn";
 import MobileApp from "/public/mobile-app.webp";
 import Header from "./header";
 import OnViewChat from "./animation/onViewChat";
+import Link from "next/link";
 
 export default function Hero({heroRef}:any) {
 
@@ -25,7 +26,9 @@ export default function Hero({heroRef}:any) {
             {/* <div className="mb-1 text-xl text-white md:font-bold md:max-w-xl">
                 Want to be notified when DentalTrack is available?
               </div> */}
-            <NotifyBtn text={"Get Started"} style="" />
+            <Link href="/free-audit" passHref>
+              <NotifyBtn text={"Claim Your Free Marketing Audit"} style="" />
+            </Link>
           </div>
           <div className="relative md:absolute md:right-0 md:top-0 h-[clamp(400px,_100vw,_576px)] md:h-full w-[500px] md:w-[clamp(72px,_28vw,_328px)]">
             <OnViewChat style="absolute z-10 bottom-6 md:hidden lg:block"/>
