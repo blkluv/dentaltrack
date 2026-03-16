@@ -14,19 +14,18 @@ export default function Hero({heroRef}:any) {
         <div className="relative flex flex-wrap justify-end w-full m-auto max-w-7xl md:px-3 xl:px-6 2xl:px-0 md:flex-nowrap md:justify-between">
           <div className="z-20 w-full mb-10 sm:mb-16">
             <div className="leading-none max-w-2xl text-[clamp(48px,_13vw,_96px)] md:text-[clamp(72px,_7.8vw,_96px)] font-extrabold drop-shadow-[0_4px_0_#141414] sm:drop-shadow-[0_4px_0_#141414] tracking-[-0.016em] text-white mb-8 text-outline">
-              Dental Marketing That Actually Works
+              We Pay Your Patients To Go Viral
             </div>
             <p className="mb-4 text-xl text-white md:font-medium md:max-w-xl">
-              You've been sold the dream before. Fancy pitch. Big promises.
-              Then absolutely nothing. We get it. Here's the difference:
-              We'll audit your current marketing for free. If we can't
-              generate MORE patients than your last agency,
-              we don't deserve your business
+              We create branded TikTok AR effects that make it fun for patients
+              to share their experience, whether through video reviews,
+              before-and-afters, or office gaming. If their content goes viral,
+              we pay them!
             </p>
             {/* <div className="mb-1 text-xl text-white md:font-bold md:max-w-xl">
-                Want to be notified when DentalTrack is available?
+                Want to be notified when ViralDental.marketing is available?
               </div> */}
-            <Link href="/free-audit" passHref>
+            <Link href="https://calendly.com/viraldentalmarketing/audit" passHref>
               <NotifyBtn text={"Claim Your Free Marketing Audit"} style="" />
             </Link>
           </div>

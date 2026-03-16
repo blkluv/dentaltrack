@@ -60,22 +60,19 @@ export default function OnViewChat({
         variants={childrenVar}
         className="absolute z-10 bg-neutral-100 border-black border-2 rounded-lg max-w-[300px] py-2 px-4 left-8 md:-left-40 bottom-52"
       >
-        "Let's fix that."
-        [Audit Report Attached]
+        Let's fix that.
       </motion.div>
       <motion.div
         variants={childrenVar}
         className="absolute z-10 bg-green-400 border-black border-2 rounded-lg max-w-[300px] py-2 px-4  md:-left-60 bottom-36"
       >
-        ❌ What's broken: Everything your last agency touched
-        ✅ What's next: 47% more patients in 90 days
-        💰 What it costs: $0 risk with a money backed guarantee
+        What it costs?
       </motion.div>
       <motion.div
         variants={childrenVar}
         className="absolute z-10 bg-neutral-100 border-black border-2 rounded-lg max-w-[300px] py-2 px-4 left-8 md:-left-40 bottom-2"
       >
-        "Where do I subscribe?"
+        $0 risk with a money backed guarantee
       </motion.div>
     </motion.div>
   );

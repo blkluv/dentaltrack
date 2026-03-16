@@ -7,10 +7,10 @@ import { PricingScrollPositionContext } from "../lib/context";
 const monthlyPlans = [
   {
     title: "The Foundation",
-    price: "$2,500",
-    yearlyPrice: "$30,000",
+    price: "2,500",
+    yearlyPrice: "30,000",
     type: "month",
-    stripeLink: "https://buy.stripe.com/test_28o5kA4sG9zL5hC9AA",
+    stripeLink: "https://buy.stripe.com/8x28wPfdff5k1Kn9vj5wI1J",
     features: [
       "Complete marketing audit & strategy",
       "Local SEO optimization",
@@ -24,10 +24,10 @@ const monthlyPlans = [
   },
   {
     title: "The Accelerator",
-    price: "$4,500",
-    yearlyPrice: "$54,000",
+    price: "4,500",
+    yearlyPrice: "54,000",
     type: "month",
-    stripeLink: "https://buy.stripe.com/test_5kA7sK0gH5rB9zN9AA",
+    stripeLink: "https://buy.stripe.com/eVq6oHc13f5k88L0YN5wI1K",
     features: [
       "Everything in Foundation",
       "Google Ads management (high-value procedure targeting)",
@@ -40,15 +40,15 @@ const monthlyPlans = [
   },
   {
     title: "The Dominator",
-    price: "$7,500",
-    yearlyPrice: "$90,000",
+    price: "7,500",
+    yearlyPrice: "90,000",
     type: "month",
-    stripeLink: "https://buy.stripe.com/test_3cscQw4sG1rC5hC9AA",
+    stripeLink: "https://buy.stripe.com/28E3cvaWZ6yO1Kn9vj5wI1L",
     features: [
       "Everything in Accelerator",
       "Multi-location management (up to 3 offices)",
-      "Reputation management dashboard",
-      "Competitor conquesting campaigns",
+      "TikTok AR Effect for gaming",
+      "TikTok AR Effect for backdrop",
       "TikTok AR Effect for Video reviews",
       "Custom viral video content office content creation (4 posts/month)",
       "Best for: Multi-location practices and DSOs",
@@ -61,10 +61,10 @@ const monthlyPlans = [
 const yearlyPlans = [
   {
     title: "The Foundation",
-    price: "$30,000",
-    monthlyPrice: "$2,500/mo",
+    price: "30,000",
+    monthlyPrice: "2,500/mo",
     type: "year",
-    stripeLink: "https://buy.stripe.com/test_28o5kA4sG9zL5hC9AA_yearly",
+    stripeLink: "https://buy.stripe.com/8x28wPfdff5k1Kn9vj5wI1J",
     features: [
       "Complete marketing audit & strategy",
       "Local SEO optimization",
@@ -79,10 +79,10 @@ const yearlyPlans = [
   },
   {
     title: "The Accelerator",
-    price: "$54,000",
-    monthlyPrice: "$4,500/mo",
+    price: "54,000",
+    monthlyPrice: "4,500/mo",
     type: "year",
-    stripeLink: "https://buy.stripe.com/test_5kA7sK0gH5rB9zN9AA_yearly",
+    stripeLink: "https://buy.stripe.com/eVq6oHc13f5k88L0YN5wI1K",
     features: [
       "Everything in Foundation",
       "Google Ads management (high-value procedure targeting)",
@@ -96,10 +96,10 @@ const yearlyPlans = [
   },
   {
     title: "The Dominator",
-    price: "$90,000",
-    monthlyPrice: "$7,500/mo",
+    price: "90,000",
+    monthlyPrice: "7,500/mo",
     type: "year",
-    stripeLink: "https://buy.stripe.com/test_3cscQw4sG1rC5hC9AA_yearly",
+    stripeLink: "https://buy.stripe.com/28E3cvaWZ6yO1Kn9vj5wI1L",
     features: [
       "Everything in Accelerator",
       "Multi-location management (up to 3 offices)",

@@ -147,10 +147,8 @@ export default function GridSection() {
                 }}
                 className="max-w-lg text-lg"
               >
-                We measure our success by the number of appointments we help you book,
-                so we create TikTok UGC AR effects for customers to leave video reviews
-                after their booking and share them on their social media, which in turn
-                creates a viral loop of new patients coming in.
+                More bookings and free patient content: We create a TikTok AR effect
+                for your dental office that pays patients when their videos go viral.
               </motion.p>
             </div>
           </div>

@@ -3,11 +3,11 @@ import CookieModal from "./components/cookieModal";
 import "./globals.css";
 
 export const metadata = {
-  title: "DentalTrack - Simplify Your Dental Appointment Scheduling",
+  title: "ViralDental.marketing - We Make Dentists Go Viral",
   description:
-    "DentalTrack simplifies dental appointments scheduling & reminders, empowering dentists to manage their practice with ease. Sign up now for customizable schedules, automated reminders & secure patient records. Elevate your dental practice with DentalTrack.",
+    "ViralDental.marketing simplifies dental appointments scheduling & reminders, empowering dentists to manage their practice with ease. Sign up now for customizable schedules, automated reminders & secure patient records. Elevate your dental practice with ViralDental.marketing.",
   keywords: [
-    "DentalTrack",
+    "ViralDental.marketing",
     "Appointment scheduling",
     "Appointment management software",
     "Dentist",

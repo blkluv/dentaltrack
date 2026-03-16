@@ -96,39 +96,39 @@ export default function ContextWraper({
             <head>
               <meta
                 property="og:image"
-                content="https://i.imgur.com/92i627y.jpg"
+                content="https://i.imgur.com/zRN5Yp7.jpeg"
               />
               <meta property="og:image:type" content="image/jpg" />
               <meta
                 property="og:title"
-                content="DentalTrack - Simplify Your Dental Appointment Scheduling"
+                content="ViralDental.marketing - We Make Dental Office Bookings Go Viral"
               />
               <meta
                 property="og:description"
-                content="DentalTrack simplifies dental appointments scheduling & reminders, empowering dentists to manage their practice with ease. Sign up now for customizable schedules, automated reminders & secure patient records. Elevate your dental practice with DentalTrack."
+                content="ViralDental.marketing simplifies dental appointments scheduling & reminders, empowering dentists to manage their practice with ease. Sign up now for customizable schedules, automated reminders & secure patient records. Elevate your dental practice with ViralDental.marketing."
               />
-              <meta property="og:url" content="https://www.dentaltrack.ar/" />
+              <meta property="og:url" content="https://viraldental.marketing" />
               <meta property="og:type" content="website" />
               <meta name="twitter:card" content="summary_large_image"></meta>
               <meta
                 property="og:site_name"
-                content="DentalTrack - Simplify your appointments"
+                content="ViralDental.marketing - We Make Dental Office Bookings Go Viral"
               />
               <meta
                 name="twitter:image:alt"
-                content="DentalTrack - Simplify your appointments"
+                content="ViralDental.marketing - We Make Dental Office Bookings Go Viral"
               />
               <meta
                 name="twitter:title"
-                content="DentalTrack - Simplify your appointments"
+                content="ViralDental.marketing - We Make Dental Office Bookings Go Viral"
               />
               <meta
                 name="og:title"
-                content="DentalTrack - Simplify your appointments"
+                content="ViralDental.marketing - We Make Dental Office Bookings Go Viral"
               />
               <meta
                 name="twitter:text:title"
-                content="DentalTrack simplifies dental appointments scheduling and patient reminders, making it easy for dentists to manage their practice and provide top-notch patient care. Our cloud-based software enables dentists to create customizable appointment schedules, automate appointment reminders and securely store patient records. Sign up today and take your dental practice to the next level with DentalTrack."
+                content="ViralDental.marketing simplifies dental appointments scheduling and patient reminders, making it easy for dentists to manage their practice and provide top-notch patient care. Our cloud-based software enables dentists to create customizable appointment schedules, automate appointment reminders and securely store patient records. Sign up today and take your dental practice to the next level with ViralDental.marketing."
               />
               <GoogleAnalytics GA_MEASUREMENT_ID="G-SMWYVD359M" />
             </head>

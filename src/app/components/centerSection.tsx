@@ -215,10 +215,7 @@ export default function CenterSection() {
               they bid on "dentist near me" and call it a day. We're different.
               We're Google Certified (actually certified, not just claiming it),
               and we know the difference between an $800 implant patient and an
-              $80 cleaning patient. We bid on what actually pays: implants,
-              Invisalign, crowns, and emergencies. Every campaign is optimized
-              for procedure value, not just clicks. Average ROAS: 6.2x. Average
-              cost per new patient: $87.
+              $80 cleaning patient.
             </p>
           </div>
           <svg
