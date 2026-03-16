@@ -29,10 +29,10 @@ export default function OnViewAppHist() {
     //   initial="offscreen"
     //   whileInView="onscreen"
     //   viewport={{once:true, amount: 0.2 }}
-    <div className="overflow-hidden w-full flex flex-col items-center">
+    <div className="flex flex-col items-center w-full overflow-hidden">
       <div className="bg-white border-2 border-black rounded-lg flex w-11/12 sm:w-full max-w-[300px] sm:max-w-[400px] items-center justify-between p-2 sm:p-3 ml-2 mr-3 drop-shadow-[4px_4px_0px_#000000] mt-10 mb-4">
         <div className="flex truncate">
-          <div className=" text-lg sm:text-2xl truncate">Samantha Joh</div>
+          <div className="text-lg truncate  sm:text-2xl">Samantha Joh</div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -44,7 +44,7 @@ export default function OnViewAppHist() {
               repeat: Infinity,
               repeatDelay: .5,
             }}
-            className=" text-lg sm:text-2xl truncate"
+            className="text-lg truncate  sm:text-2xl"
           >
             |
           </motion.div>
@@ -74,14 +74,14 @@ export default function OnViewAppHist() {
         className="bg-white border-2 border-orange-500 rounded-lg flex w-11/12 sm:w-full max-w-[300px] sm:max-w-[400px] items-center justify-between p-2 sm:p-3 ml-2 mr-3 drop-shadow-[4px_4px_0px_#000000] mb-4"
       >
         <div className="truncate">
-          <div className="font-bold text-lg sm:text-2xl truncate mb-0 sm:mb-2">
+          <div className="mb-0 text-lg font-bold truncate sm:text-2xl sm:mb-2">
             Samantha Johnson
           </div>
           <div className="bottom-[130px] left-28 sm:text-xl font-bold text-neutral-700 truncate  bg-white rounded-md px-2 w-fit">
             Root Canal
           </div>
         </div>
-        <div className="font-bold text-2xl sm:text-4xl pr-2 sm:px-4">12:30</div>
+        <div className="pr-2 text-2xl font-bold sm:text-4xl sm:px-4">12:12</div>
       </motion.div>
       <motion.div
         variants={cardAnim}
@@ -91,14 +91,14 @@ export default function OnViewAppHist() {
         className="bg-white border-2 border-green-500 rounded-lg flex w-11/12 sm:w-full max-w-[300px] sm:max-w-[400px] items-center justify-between p-2 sm:p-3 ml-2 mr-3 drop-shadow-[4px_4px_0px_#000000] mb-4"
       >
         <div className="truncate">
-          <div className="font-bold text-lg sm:text-2xl truncate mb-0 sm:mb-2">
+          <div className="mb-0 text-lg font-bold truncate sm:text-2xl sm:mb-2">
             Samantha Johnson
           </div>
           <div className="bottom-[130px] left-28 sm:text-xl font-bold text-neutral-700 truncate rounded-md px-2 w-fit">
             Checkup
           </div>
         </div>
-        <div className="font-bold text-2xl sm:text-4xl pr-2 sm:px-4">15:30</div>
+        <div className="pr-2 text-2xl font-bold sm:text-4xl sm:px-4">12:12</div>
       </motion.div>
     </div>
     // </motion.div>
