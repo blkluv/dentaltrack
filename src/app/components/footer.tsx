@@ -8,8 +8,8 @@ export default function Footer() {
   const pathname = usePathname();
 
   return (
-    <div className="bg-blue-600 border-t-2 border-black px-3 xl:px-6 2xl:px-0 sm:py-6 pt-8 pb-4 text-white text-base">
-      <div className="max-w-7xl m-auto flex flex-col sm:flex-row sm:justify-between sm:items-center">
+    <div className="px-3 pt-8 pb-4 text-base text-white bg-blue-600 border-t-2 border-black xl:px-6 2xl:px-0 sm:py-6">
+      <div className="flex flex-col m-auto max-w-7xl sm:flex-row sm:justify-between sm:items-center">
         <ul className="sm:flex sm:items-center">
           <li>
             <ScrollToTop/>
@@ -17,7 +17,7 @@ export default function Footer() {
           <li>
             <Link
               href={"/#features"}
-              className="block capitalize font-bold  mb-6 sm:mb-0 sm:mr-6"
+              className="block mb-6 font-bold capitalize sm:mb-0 sm:mr-6"
               scroll
             >
               features
@@ -26,7 +26,7 @@ export default function Footer() {
           <li>
             <Link
               href={"/#pricing"}
-              className="block capitalize font-bold  mb-6 sm:mb-0 sm:mr-6"
+              className="block mb-6 font-bold capitalize sm:mb-0 sm:mr-6"
               scroll
             >
               pricing
@@ -36,14 +36,14 @@ export default function Footer() {
             {pathname == "/blog" ?
               <Link
               href={"/"}
-              className="block capitalize font-bold  mb-6 sm:mb-0 sm:mr-6"
+              className="block mb-6 font-bold capitalize sm:mb-0 sm:mr-6"
               scroll
             >
               home
             </Link>:
             <Link
               href={"/blog"}
-              className="block capitalize font-bold  mb-6 sm:mb-0 sm:mr-6"
+              className="block mb-6 font-bold capitalize sm:mb-0 sm:mr-6"
               scroll
             >
               blog
@@ -53,11 +53,11 @@ export default function Footer() {
         <div className="mt-24 sm:mt-0">
           Developed by{" "}
           <Link
-            href={"https://nicolas.bastida.dev/"}
+            href={"https://viraldental.marketing"}
             target="_blank"
             className="font-bold"
           >
-            Nicolas Bastida
+            ViralDental.marketing
           </Link>
           .
         </div>

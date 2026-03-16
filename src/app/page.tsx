@@ -42,21 +42,21 @@ export default function Home() {
     <main ref={mainRef} className="lg:sticky" style={{ top: `-${heroHeight}px`}}>
       <Hero heroRef={heroRef} />
       <GridSection />
-      <div className="max-w-7xl m-auto mb-12 md:mb-24 px-3 xl:px-6 2xl:px-0">
+      <div className="px-3 m-auto mb-12 max-w-7xl md:mb-24 xl:px-6 2xl:px-0">
         <XlCard
           content={{
-            title: "Efficient Appointment Management",
+            title: "TikTok Is The New Google (And Your Competition Is Already On It)",
             description:
-              "Say goodbye to confusing schedules and missed appointments! Dentists can schedule and reschedule appointments, mark them as completed, and track cancellations and no-shows, all in one place.",
+              "70% of patients under 40 discover dentists on TikTok before Google. True story. Show your staffs personality by making light of your common client pain points to generate more leads and build trust with potential patients.",
           }}
           image={"appointment-list.svg"}
           reverse={false}
         />
         <XlCard
           content={{
-            title: "Customizable Office Setup",
+            title: "AI That Actually Does Something (Not Just A Chatbot)",
             description:
-              "DentalTrack is designed to adapt to the unique needs of each dental practice. Dentists can easily create custom offices and organize appointments based on location. This makes it easy to keep track of appoint-ments and ensure that everyone is on the same page.",
+              "We integrate AI into everything your practice already uses—phones, X-rays, front desk, and reviews. It answers after-hours calls, assists with diagnoses, automates reminders and insurance tasks, and texts happy patients for 5-star reviews. Your team does less. Your practice does more. Patients never notice the difference.",
           }}
           image={"office-list.svg"}
           reverse={true}

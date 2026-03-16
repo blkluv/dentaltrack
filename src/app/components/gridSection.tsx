@@ -91,76 +91,78 @@ export default function GridSection() {
   );
 
   return (
-    <div className="z-0 sm:px-3 xl:px-6 2xl:px-0 pb-16 sm:my-24 " id="features">
+    <div className="z-0 pb-16 sm:px-3 xl:px-6 2xl:px-0 sm:my-24 " id="features">
       <div className="z-0 relative max-w-7xl m-auto border-b-2 sm:border-2 border-black sm:rounded-2xl bg-neutral-100 px-3 py-9  sm:p-9 lg:pb-0 sm:drop-shadow-[8px_8px_0px_#000000]">
         <div className="z-20">
           <div className="font-bold text-5xl sm:text-6xl lg:text-7xl max-w-3xl mb-10 tracking-[-0.016em]">
-            Here&apos;s what DentalTrack can do for you!
+            After you subscribe
           </div>
           <div className="hidden lg:block">
             <motion.div className="">
               <motion.div
                 style={{ opacity: titleOpacityA }}
-                className="font-bold text-3xl mb-1 capitalize"
+                className="mb-1 text-3xl font-bold capitalize"
               >
-                Manage Appointments
+                Audit
               </motion.div>
               <motion.p
                 style={{ translateY: scaleA, opacity: scaleA }}
-                className="text-lg max-w-lg"
+                className="max-w-lg text-lg"
               >
-                Keep track of all your appointments in one place, create
-                &quot;offices&quot; for each location and filter by status, date and
-                patient name.
+                We audit your existing paid ads, SEO and social media
+                presence to identify where you stand in comparison to
+                your top 3 competitors near you.
               </motion.p>
             </motion.div>
             <motion.div className="">
               <motion.div
                 style={{ opacity: titleOpacityB, translateY: titleTranslateYB }}
-                className="font-bold text-3xl mb-1 capitalize"
+                className="mb-1 text-3xl font-bold capitalize"
               >
-                Automate Reminders
+                Clients
               </motion.div>
               <motion.p
                 style={{
                   translateY: paragraphTranslateYB,
                   opacity: paragraphOpacityB,
                 }}
-                className="text-lg max-w-lg"
+                className="max-w-lg text-lg"
               >
-                Never forget an appointment again! Automatically sends reminders
-                to your patients via WhatsApp, saving you the hassle of manual
-                reminders.
+                Once we put into action your new viral dental marketing strategy
+                the leads start coming in and we help you convert them into
+                paying patients.
               </motion.p>
             </motion.div>
             <div className="">
               <motion.div
                 style={{ opacity: titleOpacityC, translateY: titleTranslateYC }}
-                className="font-bold text-3xl mb-1 capitalize"
+                className="mb-1 text-3xl font-bold capitalize"
               >
-                Improve Productivity
+                Bookings
               </motion.div>
               <motion.p
                 style={{
                   translateY: paragraphTranslateYC,
                   opacity: paragraphOpacityC,
                 }}
-                className="text-lg max-w-lg"
+                className="max-w-lg text-lg"
               >
-                By reducing missed appointments and sending timely reminders,
-                you&apos;ll increase patient loyalty and referrals.
+                We measure our success by the number of appointments we help you book,
+                so we create TikTok UGC AR effects for customers to leave video reviews
+                after their booking and share them on their social media, which in turn
+                creates a viral loop of new patients coming in.
               </motion.p>
             </div>
           </div>
           <div className="flex flex-col lg:hidden">
-            <div className="mb-7 relative">
-              <div className="font-bold text-3xl sm:text-4xl mb-2 lg:mb-1 capitalize">
-                Manage Appointments
+            <div className="relative mb-7">
+              <div className="mb-2 text-3xl font-bold capitalize sm:text-4xl lg:mb-1">
+                Audit
               </div>
-              <p className="text-xl mb-2 lg:mb-0">
-                Keep track of all your appointments in one place, create
-                &quot;offices&quot; for each location and filter by status, date and
-                patient name.
+              <p className="mb-2 text-xl lg:mb-0">
+                We audit your existing paid ads, SEO and social media
+                presence to identify where you stand in comparison to
+                your top 3 competitors near you.
               </p>
               <div className="relative flex justify-center">
                 <svg
@@ -169,7 +171,7 @@ export default function GridSection() {
                   viewBox="0 0 304 227"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-full max-w-lg h-auto z-10"
+                  className="z-10 w-full h-auto max-w-lg"
                 >
                   <rect
                     x="5"
@@ -271,13 +273,13 @@ export default function GridSection() {
               </div>
             </div>
             <div className="mb-7">
-              <div className="font-bold text-3xl sm:text-4xl mb-2 lg:mb-1 capitalize">
-                Automate Reminders
+              <div className="mb-2 text-3xl font-bold capitalize sm:text-4xl lg:mb-1">
+                Clients
               </div>
-              <p className="text-xl mb-2 lg:mb-0">
-                Never forget an appointment again! Automatically sends reminders
-                to your patients via WhatsApp, saving you the hassle of manual
-                reminders.
+              <p className="mb-2 text-xl lg:mb-0">
+                Once we put into action your new viral dental marketing strategy
+                the leads start coming in and we help you convert them into
+                paying patients.
               </p>
               <div className="relative flex justify-center">
                 <svg
@@ -286,7 +288,7 @@ export default function GridSection() {
                   viewBox="0 0 304 227"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-full max-w-lg h-auto z-10"
+                  className="z-10 w-full h-auto max-w-lg"
                 >
                   <rect
                     x="5"
@@ -391,7 +393,7 @@ export default function GridSection() {
               viewBox="0 0 427 88"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute w-full max-w-sm h-auto bottom-24 right-0 z-10"
+              className="absolute right-0 z-10 w-full h-auto max-w-sm bottom-24"
             >
               <path
                 d="M415.44 4.45874H15.5555C9.72314 4.45874 4.99512 8.54833 4.99512 13.5931V76.9246C4.99512 81.9694 9.72314 86.059 15.5555 86.059H415.44C421.273 86.059 426.001 81.9694 426.001 76.9246V13.5931C426.001 8.54833 421.273 4.45874 415.44 4.45874Z"
@@ -421,12 +423,14 @@ export default function GridSection() {
               </div>
             </div>
             <div className="">
-              <div className="font-bold text-3xl sm:text-4xl mb-2 lg:mb-1 capitalize">
-                Improve Productivity
+              <div className="mb-2 text-3xl font-bold capitalize sm:text-4xl lg:mb-1">
+                Bookings
               </div>
-              <p className="text-xl mb-2 lg:mb-0">
-                By reducing missed appointments and sending timely reminders,
-                you&apos;ll increase patient loyalty and referrals.
+              <p className="mb-2 text-xl lg:mb-0">
+                We measure our success by the number of appointments we help you book,
+                so we create TikTok UGC AR effects for customers to leave video reviews
+                after their booking and share them on their social media, which in turn
+                creates a viral loop of new patients coming in.
               </p>
               <div className="relative flex justify-center">
                 <svg
@@ -435,7 +439,7 @@ export default function GridSection() {
                   viewBox="0 0 304 227"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-full max-w-lg h-auto z-10"
+                  className="z-10 w-full h-auto max-w-lg"
                 >
                   <rect
                     x="5"
@@ -637,10 +641,10 @@ export default function GridSection() {
         </div>
         <div
           style={{ zIndex: -2 }}
-          className="hidden lg:absolute lg:right-0 lg:top-0 z-10 h-full w-full lg:flex justify-end items-center"
+          className="z-10 items-center justify-end hidden w-full h-full lg:absolute lg:right-0 lg:top-0 lg:flex"
         >
           <div
-            className="relative flex flex-col lg:pr-9 xl:pr-28 pt-16"
+            className="relative flex flex-col pt-16 lg:pr-9 xl:pr-28"
             style={{ zIndex: -2 }}
           >
             <svg
@@ -760,7 +764,7 @@ export default function GridSection() {
               viewBox="0 0 427 88"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute bottom-24 -left-10 z-10"
+              className="absolute z-10 bottom-24 -left-10"
             >
               <path
                 d="M415.44 4.45874H15.5555C9.72314 4.45874 4.99512 8.54833 4.99512 13.5931V76.9246C4.99512 81.9694 9.72314 86.059 15.5555 86.059H415.44C421.273 86.059 426.001 81.9694 426.001 76.9246V13.5931C426.001 8.54833 421.273 4.45874 415.44 4.45874Z"

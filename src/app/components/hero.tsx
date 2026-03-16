@@ -9,18 +9,20 @@ export default function Hero({heroRef}:any) {
   return (
     <div ref={heroRef} >
       <Header />
-      <div className="border-b-2 border-b-black bg-blue-600 pt-6 md:pt-16 pb-8 md:pb-16 px-3 lg:px-0">
-        <div className="relative w-full max-w-7xl m-auto flex flex-wrap md:px-3 xl:px-6 2xl:px-0 md:flex-nowrap justify-end md:justify-between">
-          <div className="mb-10 sm:mb-16 w-full z-20">
+      <div className="px-3 pt-6 pb-8 bg-blue-600 border-b-2 border-b-black md:pt-16 md:pb-16 lg:px-0">
+        <div className="relative flex flex-wrap justify-end w-full m-auto max-w-7xl md:px-3 xl:px-6 2xl:px-0 md:flex-nowrap md:justify-between">
+          <div className="z-20 w-full mb-10 sm:mb-16">
             <div className="leading-none max-w-2xl text-[clamp(48px,_13vw,_96px)] md:text-[clamp(72px,_7.8vw,_96px)] font-extrabold drop-shadow-[0_4px_0_#141414] sm:drop-shadow-[0_4px_0_#141414] tracking-[-0.016em] text-white mb-8 text-outline">
-              Simplify patient appointment management.
+              Dental Marketing That Actually Works (No BS, No 12-Month Contracts)
             </div>
-            <p className="text-white md:font-medium mb-4 text-xl md:max-w-xl">
-              DentalTrack helps dental practices efficiently manage their
-              appointments and send reminders to patients, reducing missed
-              appointments and increasing productivity.
+            <p className="mb-4 text-xl text-white md:font-medium md:max-w-xl">
+              You've been sold the dream before. Fancy pitch. Big promises.
+              Then absolutely nothing. We get it. Here's the difference:
+              We'll audit your current marketing for free. If we can't
+              generate MORE patients than your last agency,
+              we don't deserve your business
             </p>
-            {/* <div className="md:font-bold text-white mb-1 text-xl md:max-w-xl">
+            {/* <div className="mb-1 text-xl text-white md:font-bold md:max-w-xl">
                 Want to be notified when DentalTrack is available?
               </div> */}
             <NotifyBtn text={"Get Started"} style="" />
@@ -31,7 +33,7 @@ export default function Hero({heroRef}:any) {
               <Image
                 src={MobileApp}
                 alt="mobile app view"
-                className="object-contain z-0"
+                className="z-0 object-contain"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 30vw"
                 priority={true}

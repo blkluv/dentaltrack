@@ -2,16 +2,16 @@ import OnViewPopIn from "./animation/onViewPopIn";
 
 export default function CenterSection() {
   return (
-    <div className="relative border-y-2 border-y-black bg-blue-600 text-white px-3 lg:px-0 pt-9 pb-14 md:py-20">
+    <div className="relative px-3 text-white bg-blue-600 border-y-2 border-y-black lg:px-0 pt-9 pb-14 md:py-20">
       <OnViewPopIn>
-        <div className="relative z-10 max-w-5xl m-auto flex">
+        <div className="relative z-10 flex max-w-5xl m-auto">
           <svg
             width="198"
             height="271"
             viewBox="0 0 198 271"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="mt-16 min-w-max md:block hidden"
+            className="hidden mt-16 min-w-max md:block"
           >
             <g clipPath="url(#clip0_277_4)">
               <path
@@ -207,15 +207,18 @@ export default function CenterSection() {
             </defs>
           </svg>
           <div className="max-w-xl m-auto sm:text-center">
-            <div className="font-bold text-3xl mb-5">
-              Powerfull Tagging System
+            <div className="mb-5 text-3xl font-bold">
+              Google Ads Managed By People Who Actually Understand Dentistry
             </div>
             <p className="text-base">
-              Our tagging system makes it easy to identify and manage
-              appointments based on the services provided. Dentists can quickly
-              see what kind of appointment is scheduled and what they need to do
-              to prepare. This streamlines the entire process and ensures that
-              everyone is on the same page.
+              Most "Google Ads experts" have never set foot in a dental office
+              they bid on "dentist near me" and call it a day. We're different.
+              We're Google Certified (actually certified, not just claiming it),
+              and we know the difference between an $800 implant patient and an
+              $80 cleaning patient. We bid on what actually pays: implants,
+              Invisalign, crowns, and emergencies. Every campaign is optimized
+              for procedure value, not just clicks. Average ROAS: 6.2x. Average
+              cost per new patient: $87.
             </p>
           </div>
           <svg
@@ -224,7 +227,7 @@ export default function CenterSection() {
             viewBox="0 0 198 271"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="min-w-max md:block hidden"
+            className="hidden min-w-max md:block"
           >
             <g clipPath="url(#clip0_277_5)">
               <path
