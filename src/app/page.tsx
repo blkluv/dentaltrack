@@ -63,7 +63,7 @@ export default function Home() {
         />
       </div>
       <TwoColSection />
-      <PaymentOptions content={{}} />
+      <PaymentOptions />
       {/* <QueryClientComponent>
         <Form />
       </QueryClientComponent> */}
