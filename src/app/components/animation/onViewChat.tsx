@@ -66,7 +66,7 @@ export default function OnViewChat({
         variants={childrenVar}
         className="absolute z-10 bg-green-400 border-black border-2 rounded-lg max-w-[300px] py-2 px-4  md:-left-60 bottom-36"
       >
-        What it costs?
+        What is the cost?
       </motion.div>
       <motion.div
         variants={childrenVar}
