@@ -54,7 +54,7 @@ export default function OnViewChat({
         variants={childrenVar}
         className="absolute z-10 md:-left-60 bottom-80 bg-green-400 text-base border-black border-2 rounded-lg max-w-[300px] py-2 px-4 "
       >
-        HELP!!! My digital marketing sucks!!!
+        HELP!!! My digital marketing is terrible!!!
       </motion.div>
       <motion.div
         variants={childrenVar}
